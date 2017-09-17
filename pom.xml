@@ -12,6 +12,11 @@
 	<description>An basic Maven Archetype for standalone application or libraries.</description>
 	<url>https://github.com/InfinityRefactoring/8R-Basic-Archetype</url>
 
+	<organization>
+		<name>InfinityRefactoring</name>
+		<url>https://infinityrefactoring.com</url>
+	</organization>
+
 	<developers>
 		<developer>
 			<id>ThomasSousa96</id>
