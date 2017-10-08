@@ -6,15 +6,9 @@ An basic Maven Archetype for standalone application or libraries.
 
 ## Using Basic Archetype
 
-You can [download](https://github.com/InfinityRefactoring/8R-Basic-Archetype/archive/master.zip) it and after install it on your PC.
-
 ## Use example:
 
 ```
-cd /path/to/8R-Basic-Archetype
-
-mvn install archetype:update-local-catalog
-
 cd /path/to/your/workspace
 
 mvn archetype:generate \
@@ -24,10 +18,12 @@ mvn archetype:generate \
 -DarchetypeGroupId=com.infinityrefactoring \
 -DarchetypeArtifactId=8R-basic-archetype \
 -DarchetypeVersion=1.0 \
--DarchetypeCatalog=local \
 -DinteractiveMode=false
 ```
-*Note*: Replace `com.example` and `my-artifact` by something more appropriate for your project. The value of the attribute `-Dversion` is the version of your project.
+*Note*:
+
+* Replace `com.example` and `my-artifact` by something more appropriate for your project. The value of the attribute `-Dversion` is the version of your project.
+* You too can use it directly in the Eclipse IDE. Create a new maven project and select the archetype: 8R-basic-archetype
 
 ## Licensing
 
